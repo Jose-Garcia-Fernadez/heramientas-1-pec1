@@ -1,0 +1,29 @@
+.index {
+  margin: 0 auto;
+  position: relative;
+  width: 900px;
+  height:675px;
+  //background-image: url('/src/13-imagenes/propias/nazare/png/900/1/1.png');
+  &::before{
+    position: absolute;
+    width: 95%;
+    height:  56%;
+    top: 0em;
+    left: 0em;
+    padding: 0.2em;
+    content: "";
+    background-image: url('/src/13-imagenes/propias/nazare/png/900/1/1.png');
+    opacity: 0.3;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    //z-index: -1;
+    top: 0;
+    left: 0;
+    }
+  }
+
