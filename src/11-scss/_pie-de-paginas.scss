@@ -9,8 +9,8 @@
   align-items: center; justify-content: center;
   > .holas {
     position: absolute;overflow: hidden;
-    //height: auto;
-    //width: auto;   
+    /*height: auto;
+    width: auto;   */
     top:0px; bottom: 0px;
    > .hola {
       position: absolute;left: 0px;bottom: 0px;height: 100%;
@@ -23,8 +23,11 @@
     > .c {background-position: 0 0;   animation-delay: 3s;}  
   } // holas
   > .texto {
+    > h3 {
+      padding-top: alturafuente(2);
+    }
     > p {
-      padding: 10px;
+      padding-top: alturafuente(2);
       @if $debug==inline { background-color: yellow;}
     }
     input[type="email"] {

@@ -3,7 +3,7 @@
 import {l,tiempo_carga,escribir_tiempo} from '/src/12-js/listados.js';
 import {debug} from '/src/12-js/debug.js';
 // Variables globales de este fichero
-var ciudad='obidos'; 
+var ciudad='obidos',ciudadT="Óbidos"; 
 var i_listado = 0,tiempo_video;
 var div=document.getElementById('div-video-'+ ciudad);
 var video=document.getElementById('video-video-'+ ciudad);
@@ -38,8 +38,10 @@ function cargar_obidos_video(incremento,parametro){
       if (i_listado>(listado.length-1)) i_listado=0;
       if (i_listado<0) i_listado=listado.length-1;       
       video.src=listado[i_listado];            
-      h2.innerHTML='Presentación de Videos de '+ ciudad + " " + tiempo_carga;
-      h3.innerHTML=comentario[i_listado] + ' ' + i_listado +  "(video " +  c + ")" +" w=" + w + " h=" + h;            
+      h2.innerHTML= "Videos de "+ ciudadT + " " + (i_listado +1) + " de " +listado.length ;//+ " carga " +  tiempo_carga + "msg";
+      h3.innerHTML=comentario[i_listado] ; //+ ' ' + i_listado +  "(horizontal"  +  c + ")" + " w=" + w + " h=" + h;  
+      //h2.innerHTML='Presentación de Videos de '+ ciudad + " " + tiempo_carga;
+      //h3.innerHTML=comentario[i_listado] + ' ' + i_listado +  "(video " +  c + ")" +" w=" + w + " h=" + h;            
       tiempo_video=l.duracion.obidos_duracion[i_listado];
       break;
     case 2: break; // ????

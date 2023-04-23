@@ -14,12 +14,13 @@
         align-items: center; /* vertical */          
         // justify-content: center;  //horizontal center
       }
-      p {padding-right: alturafuente(2);}
+      h3 {padding-right: alturafuente(2);}
     }
     dd {
       padding-left: alturafuente(3);
       padding-top: alturafuente(0.5);
       padding-bottom: alturafuente(2);
+     // text-align: center;
     }
   }
 }

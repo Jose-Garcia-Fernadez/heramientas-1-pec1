@@ -1,8 +1,8 @@
 var nazare_mp4 = [
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
+  'Portugal playa sur Nazaré',
+  'Portugal playa sur Nazaré',
+  'Portugal playa sur Nazaré',
+  'Portugal olas Nazaré',
   'Portugal Nazaré',
   'Portugal Nazaré',
   'Portugal Nazaré',
@@ -19,8 +19,8 @@ var nazare_mp4 = [
   'Portugal Nazaré',
 ];
 var fatima_mp4 = [
-  'Portugal  Santuario de Fátima',
-  'Portugal  Santuario de Fátima',
+  'Portugal  interior Santuario de Fátima',
+  'Portugal  interior Santuario de Fátima',
   'Portugal  Santuario de Fátima',
   'Portugal Santuario de Fátima',
   'Portugal Santuario de Fátima',
@@ -29,111 +29,108 @@ var fatima_mp4 = [
   'Portugal  Santuario de Fátima',
 ];
 var obidos_mp4 = [
-  'Portugal Obidos',
-  'Portugal Obidos',
-  'Portugal Obidos',
+  'Portugal castillo de Obidos',
+  'Portugal ciudad amurallada de Obidos',
+  'Portugal ciudad amurallada de Obidos',
   'Portugal Obidos',
 ];
 var alcobasa_mp4 = [
-  'Portugal Monasterio de Alcobaça',
+  'Portugal vista interior del Monasterio de Alcobaça',
   'Portugal Monasterio de Alcobaça',
   'Portugal Monasterio de Alcobaça',
   'Portugal Monasterio de Alcobaça',
 ];
 var sintra_mp4 = [
-  'Portugal Sintra',
+  'Portugal Palacio Nacional de Sintra',
   'Portugal Sintra',
   'Portugal Sintra',
   'Portugal Sintra',
   'Portugal Sintra',
 ];
-
-
-
 
 
 var nazare_1 = [
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
+  'Portugal Santuario de Nuestra Señora de Nazaré',
+  'Portugal Puerta faro Nazaré',
+  'Portugal Vista desde el faro de Nazaré',
+  'Portugal Vista desde el faro de Nazaré',
+  'Portugal Playa Sur Nazaré',
+  'Portugal entrada faro Nazaré',
+  'Portugal ciudad de Nazaré ',
+  'Portugal vista montaña faro Nazaré',
+  'Portugal playa Sur de Nazaré',
+  'Portugal frutos del mar de Nazaré',
+  'Portugal vista desde el faro de Nazaré',
+  'Portugal museo de surf faro de Nazaré',
+  'Portugal museo de surf faro de Nazaré',
+  'Portugal vista del faro Nazaré',
+  'Portugal playa norte de Nazaré',
+  'Portugal montaña del faro de Nazaré',
+  'Portugal faro de Nazaré',
+  'Portugal faro de Nazaré',
 ];
 var fatima_1 = [
-  'Portugal  Santuario de Fátima',
-  'Portugal  Santuario de Fátima',
-  'Portugal  Santuario de Fátima',
   'Portugal Santuario de Fátima',
+  'Portugal lapidas de Jacinta y Lucia Santuario de Fátima',
   'Portugal Santuario de Fátima',
-  'Portugal  Santuario de Fátima',
-  'Portugal  Santuario de Fátima',
-  'Portugal  Santuario de Fátima',
+  'Portugal Santuario de Fátima de noche',
+  'Portugal interior del Santuario de Fátima',
+  'Portugal exterior del Santuario de Fátima',
+  'Portugal exterior del Santuario de Fátima',
+  'Portugal exterior del Santuario de Fátima',
 ];
 var obidos_1 = [
-  'Portugal Obidos',
-  'Portugal Obidos',
-  'Portugal Obidos',
-  'Portugal Obidos',
+  'Portugal castilo de Obidos',
+  'Portugal castillo de Obidos',
+  'Portugal museo Museu de Sardinha de Obidos',
+  'Portugal vista de Obidos',
 ];
 var alcobasa_1 = [
   'Portugal Monasterio de Alcobaça',
+  'Portugal vista interior Monasterio de Alcobaça',
   'Portugal Monasterio de Alcobaça',
-  'Portugal Monasterio de Alcobaça',
-  'Portugal Monasterio de Alcobaça',
+  'Portugal jardines del Monasterio de Alcobaça',
 ];
 var sintra_1 = [
   'Portugal Sintra',
-  'Portugal Sintra',
-  'Portugal Sintra',
-  'Portugal Sintra',
-  'Portugal Sintra',
+  'Portugal sala das Pegas Sintra',
+  'Portugal vista de Sintra',
+  'Portugal Palácio da Regaleira Sintra',
+  'Portugal Palacio da Pena Sintra',
 ];
 var nazare_6 = [
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
-  'Portugal Nazaré',
+  'Portugal estatua faro Nazaré',
+  'Portugal museo faro Nazaré',
+  'Portugal faro Nazaré',
+  'Portugal caseta faro Nazaré',
 ];
 var fatima_6 = [
-  'Portugal  Santuario de Fátima',
-  'Portugal  Santuario de Fátima',
-  'Portugal  Santuario de Fátima',
-  'Portugal  Santuario de Fátima',
+  'Portugal Santuario de Fátima',
+  'Portugal Imagen pastoras del Santuario de Fátima',
+  'Portugal imagen  del Santuario de Fátima',
+  'Portugal exterior delSantuario de Fátima',
 ];
 var obidos_6 = [
-  'Portugal Obidos',
-  'Portugal Obidos',
-  'Portugal Obidos',
+  'Portugal puerta de la muralla de Obidos',
+  'Portugal muralla de Obidos',
+  'Portugal puerta de la muralla Obidos',
 ];
 var alcobasa_6 = [
-  'Portugal Monasterio de Alcobaça',
-  'Portugal Monasterio de Alcobaça',
-  'Portugal Monasterio de Alcobaça',
-  'Portugal Monasterio de Alcobaça',
-  'Portugal Monasterio de Alcobaça',
+  'Portugal exterior Monasterio de Alcobaça',
+  'Portugal exterior Monasterio de Alcobaça',
+  'Portugal interior Monasterio de Alcobaça',
+  'Portugal interior Monasterio de Alcobaça',
+  'Portugal interior Monasterio de Alcobaça',
 ];
 var sintra_6 = [
-  'Portugal Sintra',
-  'Portugal Sintra',
-  'Portugal Sintra',
-  'Portugal Sintra',
-  'Portugal Sintra',
-  'Portugal Sintra',
-  'Portugal Sintra',
-  'Portugal Sintra',
+  'Portugal ciudad de Sintra',
+  'Portugal Palácio Nacional Sintra',
+  'Portugal Palácio Nacional Sintra',
+  'Portugal Palácio da Regaleira Sintra',
+  'Portugal Palácio da pena Sintra',
+  'Portugal Palácio da pena Sintra',
+  'Portugal Palácio da Regaleira Sintra',
+  'Portugal Palácio da Regaleira Sintra',
 ];
 var nazare_png_300_1 = [
   new URL('/src/13-imagenes/propias/nazare/png/300/1/0.png',import.meta.url),

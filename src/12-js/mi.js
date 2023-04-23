@@ -1,6 +1,7 @@
 window.onload = function () {
-  document.onmousemove = mostrarPosicionPuntero;		
-  document.onclick=copiarportapapeles;  
+ // document.onmousemove = mostrarPosicionPuntero;		
+  document.onclick=mostrarPosicionPuntero;
+//copiarportapapeles;  
 } 
 function mostrarPosicionPuntero(e) {
     let s=window.location.href;

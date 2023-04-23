@@ -3,7 +3,8 @@
 import {l} from '/src/12-js/listados.js';
 import {debug} from '/src/12-js/debug.js';
 // Variables globales de este fichero
-var ciudad='obidos'; 
+var ciudad='obidos',ciudadT="Óbidos"; 
+
 var i_listado = 0;
 var div=document.getElementById('div-ver-'+ ciudad);
 var img=document.getElementById('img-ver-'+ ciudad);
@@ -40,8 +41,10 @@ function cargar_obidos_v(incremento,parametro){
       if (i_listado<0) i_listado=listado.length-1;       
       img.src=listado[i_listado];      
       img.alt= comentario[i_listado] + ' ' + i_listado;
-      h3.innerHTML=comentario[i_listado] + ' ' + i_listado +  "(vertical " +  c + ")";      
-      h2.innerHTML='Presentación de Fotos de '+ ciudad;
+      h2.innerHTML= "Fotos de "+ ciudadT + " " + (i_listado +1) + " de " +listado.length ;//+ " carga " +  tiempo_carga + "msg";
+      h3.innerHTML=comentario[i_listado] ; //+ ' ' + i_listado +  "(horizontal"  +  c + ")" + " w=" + w + " h=" + h;  
+      //h3.innerHTML=comentario[i_listado] + ' ' + i_listado +  "(vertical " +  c + ")";      
+      //h2.innerHTML='Presentación de Fotos de '+ ciudad;
       break;
     case 2: break; // ????
   }  

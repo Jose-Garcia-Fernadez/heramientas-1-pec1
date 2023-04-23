@@ -17,7 +17,7 @@ dt  {font-size: alturafuente(1.8);}
 dd  {font-size: alturafuente(1.5);}
 li  {font-size: alturafuente(1.5);}
 ul  {font-size: alturafuente(1.5);}
-figcaption { font-size: alturafuente(1.5);}
+figcaption { font-size: alturafuente(2);}
 span {font-size:alturafuente(1.7);}
 strong {font-size:alturafuente(2);}
 .oculto {  display: none;}
@@ -26,6 +26,10 @@ strong {font-size:alturafuente(2);}
 $c-cabecera-fondo: chocolate;
 $c-cabecera-texto:blue;
 $c-cabecera-texto-contraste:red;
+
+ul {list-style-type: none;text-decoration: none;}
+a {text-decoration: none;color: $c-cabecera-texto;}
+a:hover {text-decoration: none;color: $c-cabecera-texto-contraste;}
 
 $c-boton-diapositiva-texto:#fff;
 $c-boton-diapositiva-fondo:#0000ff;

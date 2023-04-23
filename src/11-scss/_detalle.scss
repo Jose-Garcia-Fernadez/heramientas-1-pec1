@@ -1,32 +1,21 @@
 
 .detalle {
-  //background-color: rgb(200,200,0);
-  //color:red;
-  font-size: alturafuente(1);
+  line-height: 1.5;      
+  p{ font-size: alturafuente(1);}
   dl {
     font-weight: 400;
-    line-height: 2;      
+    line-height: 1.5;      
     margin-left: alturafuente(1);
-    //background-color: antiquewhite;
-    //color:rgb(50,50,50);
     > dt {
-      //color:red;
-      font-size: alturafuente(1);
     }
-    > dd {
-      //font-size: alturafuente(1);
+    > dd {  
       margin-left: alturafuente(1);
-      //background-color: greenyellow;
-      //color:darkgoldenrod;
-      /*> span{
-        //color:red;
-        font-size:alturafuente(1);
-      }*/
+      }
     >  &:after {
       content: ".";
       }
     }
   }
-}
+
 
 

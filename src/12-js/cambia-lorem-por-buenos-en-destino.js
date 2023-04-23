@@ -2,7 +2,7 @@ const { spawn } = require('node:child_process');
 const replace = require("node-replace"); /* npm install node-replace --save */
 const textos = require("./cambia-variable.js");
 const ruta="z:/destino/";
-ruta=process.env.npm_config_ruta || ruta; // npm run cambia-lorem-por-buenos-en-destino --ruta=c:/4UOC/PEC1/destino/
+//ruta=process.env.npm_config_ruta || ruta; // npm run cambia-lorem-por-buenos-en-destino --ruta=c:/4UOC/PEC1/destino/
 //https://reflect.run/articles/sending-command-line-arguments-to-an-npm-script/
 remplazar_textos_loren_por_buenos(textos());
 function remplazar_textos_loren_por_buenos(textos){

@@ -562,7 +562,7 @@ function hmrAccept(bundle, id) {
 var _listadosJs = require("/src/12-js/listados.js");
 var _debugJs = require("/src/12-js/debug.js");
 // Variables globales de este fichero
-var ciudad = "fatima";
+var ciudad = "fatima", ciudadT = "F\xe1tima";
 var i_listado = 0, tiempo_video;
 var div = document.getElementById("div-video-" + ciudad);
 var video = document.getElementById("video-video-" + ciudad);
@@ -604,8 +604,10 @@ function cargar_fatima_video(incremento, parametro) {
             if (i_listado > listado.length - 1) i_listado = 0;
             if (i_listado < 0) i_listado = listado.length - 1;
             video.src = listado[i_listado];
-            h2.innerHTML = "Presentaci\xf3n de Videos de " + ciudad + " " + (0, _listadosJs.tiempo_carga);
-            h3.innerHTML = comentario[i_listado] + " " + i_listado + "(video " + c + ")" + " w=" + w + " h=" + h;
+            h2.innerHTML = "Videos de " + ciudadT + " " + (i_listado + 1) + " de " + listado.length; //+ " carga " +  tiempo_carga + "msg";
+            h3.innerHTML = comentario[i_listado]; //+ ' ' + i_listado +  "(horizontal"  +  c + ")" + " w=" + w + " h=" + h;  
+            //h2.innerHTML='Presentación de Videos de '+ ciudad + " " + tiempo_carga;
+            //h3.innerHTML=comentario[i_listado] + ' ' + i_listado +  "(video " +  c + ")" +" w=" + w + " h=" + h;            
             tiempo_video = (0, _listadosJs.l).duracion.fatima_duracion[i_listado];
             break;
         case 2:
@@ -728,10 +730,10 @@ parcelHelpers.export(exports, "l", ()=>l);
 parcelHelpers.export(exports, "tiempo_carga", ()=>tiempo_carga);
 parcelHelpers.export(exports, "escribir_tiempo", ()=>escribir_tiempo);
 var nazare_mp4 = [
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
+    "Portugal playa sur Nazar\xe9",
+    "Portugal playa sur Nazar\xe9",
+    "Portugal playa sur Nazar\xe9",
+    "Portugal olas Nazar\xe9",
     "Portugal Nazar\xe9",
     "Portugal Nazar\xe9",
     "Portugal Nazar\xe9",
@@ -748,8 +750,8 @@ var nazare_mp4 = [
     "Portugal Nazar\xe9"
 ];
 var fatima_mp4 = [
-    "Portugal  Santuario de F\xe1tima",
-    "Portugal  Santuario de F\xe1tima",
+    "Portugal  interior Santuario de F\xe1tima",
+    "Portugal  interior Santuario de F\xe1tima",
     "Portugal  Santuario de F\xe1tima",
     "Portugal Santuario de F\xe1tima",
     "Portugal Santuario de F\xe1tima",
@@ -758,106 +760,106 @@ var fatima_mp4 = [
     "Portugal  Santuario de F\xe1tima"
 ];
 var obidos_mp4 = [
-    "Portugal Obidos",
-    "Portugal Obidos",
-    "Portugal Obidos",
+    "Portugal castillo de Obidos",
+    "Portugal ciudad amurallada de Obidos",
+    "Portugal ciudad amurallada de Obidos",
     "Portugal Obidos"
 ];
 var alcobasa_mp4 = [
-    "Portugal Monasterio de Alcoba\xe7a",
+    "Portugal vista interior del Monasterio de Alcoba\xe7a",
     "Portugal Monasterio de Alcoba\xe7a",
     "Portugal Monasterio de Alcoba\xe7a",
     "Portugal Monasterio de Alcoba\xe7a"
 ];
 var sintra_mp4 = [
-    "Portugal Sintra",
+    "Portugal Palacio Nacional de Sintra",
     "Portugal Sintra",
     "Portugal Sintra",
     "Portugal Sintra",
     "Portugal Sintra"
 ];
 var nazare_1 = [
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9"
+    "Portugal Santuario de Nuestra Se\xf1ora de Nazar\xe9",
+    "Portugal Puerta faro Nazar\xe9",
+    "Portugal Vista desde el faro de Nazar\xe9",
+    "Portugal Vista desde el faro de Nazar\xe9",
+    "Portugal Playa Sur Nazar\xe9",
+    "Portugal entrada faro Nazar\xe9",
+    "Portugal ciudad de Nazar\xe9 ",
+    "Portugal vista monta\xf1a faro Nazar\xe9",
+    "Portugal playa Sur de Nazar\xe9",
+    "Portugal frutos del mar de Nazar\xe9",
+    "Portugal vista desde el faro de Nazar\xe9",
+    "Portugal museo de surf faro de Nazar\xe9",
+    "Portugal museo de surf faro de Nazar\xe9",
+    "Portugal vista del faro Nazar\xe9",
+    "Portugal playa norte de Nazar\xe9",
+    "Portugal monta\xf1a del faro de Nazar\xe9",
+    "Portugal faro de Nazar\xe9",
+    "Portugal faro de Nazar\xe9"
 ];
 var fatima_1 = [
-    "Portugal  Santuario de F\xe1tima",
-    "Portugal  Santuario de F\xe1tima",
-    "Portugal  Santuario de F\xe1tima",
     "Portugal Santuario de F\xe1tima",
+    "Portugal lapidas de Jacinta y Lucia Santuario de F\xe1tima",
     "Portugal Santuario de F\xe1tima",
-    "Portugal  Santuario de F\xe1tima",
-    "Portugal  Santuario de F\xe1tima",
-    "Portugal  Santuario de F\xe1tima"
+    "Portugal Santuario de F\xe1tima de noche",
+    "Portugal interior del Santuario de F\xe1tima",
+    "Portugal exterior del Santuario de F\xe1tima",
+    "Portugal exterior del Santuario de F\xe1tima",
+    "Portugal exterior del Santuario de F\xe1tima"
 ];
 var obidos_1 = [
-    "Portugal Obidos",
-    "Portugal Obidos",
-    "Portugal Obidos",
-    "Portugal Obidos"
+    "Portugal castilo de Obidos",
+    "Portugal castillo de Obidos",
+    "Portugal museo Museu de Sardinha de Obidos",
+    "Portugal vista de Obidos"
 ];
 var alcobasa_1 = [
     "Portugal Monasterio de Alcoba\xe7a",
+    "Portugal vista interior Monasterio de Alcoba\xe7a",
     "Portugal Monasterio de Alcoba\xe7a",
-    "Portugal Monasterio de Alcoba\xe7a",
-    "Portugal Monasterio de Alcoba\xe7a"
+    "Portugal jardines del Monasterio de Alcoba\xe7a"
 ];
 var sintra_1 = [
     "Portugal Sintra",
-    "Portugal Sintra",
-    "Portugal Sintra",
-    "Portugal Sintra",
-    "Portugal Sintra"
+    "Portugal sala das Pegas Sintra",
+    "Portugal vista de Sintra",
+    "Portugal Pal\xe1cio da Regaleira Sintra",
+    "Portugal Palacio da Pena Sintra"
 ];
 var nazare_6 = [
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9",
-    "Portugal Nazar\xe9"
+    "Portugal estatua faro Nazar\xe9",
+    "Portugal museo faro Nazar\xe9",
+    "Portugal faro Nazar\xe9",
+    "Portugal caseta faro Nazar\xe9"
 ];
 var fatima_6 = [
-    "Portugal  Santuario de F\xe1tima",
-    "Portugal  Santuario de F\xe1tima",
-    "Portugal  Santuario de F\xe1tima",
-    "Portugal  Santuario de F\xe1tima"
+    "Portugal Santuario de F\xe1tima",
+    "Portugal Imagen pastoras del Santuario de F\xe1tima",
+    "Portugal imagen  del Santuario de F\xe1tima",
+    "Portugal exterior delSantuario de F\xe1tima"
 ];
 var obidos_6 = [
-    "Portugal Obidos",
-    "Portugal Obidos",
-    "Portugal Obidos"
+    "Portugal puerta de la muralla de Obidos",
+    "Portugal muralla de Obidos",
+    "Portugal puerta de la muralla Obidos"
 ];
 var alcobasa_6 = [
-    "Portugal Monasterio de Alcoba\xe7a",
-    "Portugal Monasterio de Alcoba\xe7a",
-    "Portugal Monasterio de Alcoba\xe7a",
-    "Portugal Monasterio de Alcoba\xe7a",
-    "Portugal Monasterio de Alcoba\xe7a"
+    "Portugal exterior Monasterio de Alcoba\xe7a",
+    "Portugal exterior Monasterio de Alcoba\xe7a",
+    "Portugal interior Monasterio de Alcoba\xe7a",
+    "Portugal interior Monasterio de Alcoba\xe7a",
+    "Portugal interior Monasterio de Alcoba\xe7a"
 ];
 var sintra_6 = [
-    "Portugal Sintra",
-    "Portugal Sintra",
-    "Portugal Sintra",
-    "Portugal Sintra",
-    "Portugal Sintra",
-    "Portugal Sintra",
-    "Portugal Sintra",
-    "Portugal Sintra"
+    "Portugal ciudad de Sintra",
+    "Portugal Pal\xe1cio Nacional Sintra",
+    "Portugal Pal\xe1cio Nacional Sintra",
+    "Portugal Pal\xe1cio da Regaleira Sintra",
+    "Portugal Pal\xe1cio da pena Sintra",
+    "Portugal Pal\xe1cio da pena Sintra",
+    "Portugal Pal\xe1cio da Regaleira Sintra",
+    "Portugal Pal\xe1cio da Regaleira Sintra"
 ];
 var nazare_png_300_1 = [
     new URL(require("86781a753eb4dbf")),

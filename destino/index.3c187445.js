@@ -558,8 +558,9 @@ function hmrAccept(bundle, id) {
 
 },{}],"4awaj":[function(require,module,exports) {
 window.onload = function() {
-    document.onmousemove = mostrarPosicionPuntero;
-    document.onclick = copiarportapapeles;
+    // document.onmousemove = mostrarPosicionPuntero;		
+    document.onclick = mostrarPosicionPuntero;
+//copiarportapapeles;  
 };
 function mostrarPosicionPuntero(e) {
     let s = window.location.href;

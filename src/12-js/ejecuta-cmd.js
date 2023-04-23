@@ -14,24 +14,28 @@ function copiar_remplazar(ciudad,ciudadT,html) {
   destino='src/12-js/d/diapositiva_fotos-horizontal--' + ciudad +'.js';
   fs.writeFileSync(destino, datos_origen); 
   replace({ regex: "nazare", replacement: ciudad, paths: [destino]});
+  replace({ regex: "Nazaré", replacement: ciudadT, paths: [destino]});
 
   datos_origen= fs.readFileSync('src/12-js/d_origen/diapositiva_fotos-vertical-nazare.js');
   destino='src/12-js/d/diapositiva_fotos-vertical--' + ciudad +'.js';
   fs.writeFileSync(destino, datos_origen);  
   replace({ regex: "nazare", replacement: ciudad, paths: [destino]});
+  replace({ regex: "Nazaré", replacement: ciudadT, paths: [destino]});
 
   
   datos_origen= fs.readFileSync('src/12-js/d_origen/diapositiva_fotos-nazare.js');
   destino='src/12-js/d/diapositiva_fotos--' + ciudad +'.js' 
   fs.writeFileSync(destino, datos_origen);  
   replace({ regex: "nazare", replacement: ciudad, paths: [destino]});
+  replace({ regex: "Nazaré", replacement: ciudadT, paths: [destino]});
 
   datos_origen = fs.readFileSync('src/12-js/d_origen/diapositiva_video-nazare.js');
   destino='src/12-js/d/diapositiva_video--' + ciudad +'.js'
   fs.writeFileSync(destino, datos_origen);  
   replace({ regex: "nazare", replacement: ciudad, paths: [destino]});
-
-
+  replace({ regex: "Nazaré", replacement: ciudadT, paths: [destino]});
+  
+  
   datos_origen = fs.readFileSync('src/0100detalle-base.html');
   destino='src/' + html;
   fs.writeFileSync(destino, datos_origen);  

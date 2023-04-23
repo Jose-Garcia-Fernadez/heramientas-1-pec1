@@ -3,7 +3,7 @@
 import {l,tiempo_carga,escribir_tiempo} from '/src/12-js/listados.js';
 import {debug} from '/src/12-js/debug.js';
 // Variables globales de este fichero
-var ciudad='nazare'; 
+var ciudad='nazare',ciudadT="Nazaré"; 
 var i_listado = 0;
 var div=document.getElementById('div-hor-'+ ciudad);
 var img=document.getElementById('img-hor-'+ ciudad);
@@ -48,8 +48,8 @@ function cargar_nazare_h(incremento,parametro){
       } 
       img.src=listado[i_listado];      
       img.alt= comentario[i_listado] + ' ' + i_listado;
-      h2.innerHTML= "Presentación de Fotos de "+ ciudad + " carga " +  tiempo_carga + "msg";
-      h3.innerHTML=comentario[i_listado] + ' ' + i_listado +  "(horizontal"  +  c + ")" + " w=" + w + " h=" + h;  
+      h2.innerHTML= "Fotos de la "+ ciudadT + " " + (i_listado +1) + " de " +listado.length ;//+ " carga " +  tiempo_carga + "msg";
+      h3.innerHTML=comentario[i_listado] ; //+ ' ' + i_listado +  "(horizontal"  +  c + ")" + " w=" + w + " h=" + h;  
       break;
     case 2: break; // ????
   }  
