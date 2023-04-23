@@ -9,13 +9,14 @@ node_modules/
 .git/
 .cache
 .parcel-cache
+destino/
 # ficheros batch
 *.cmd
 # ficheros docx
 *.docx
-
 # ficheros xls
 *.xls*
+
 
 
 # Logs
